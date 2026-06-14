@@ -1,0 +1,47 @@
+Product Strategy Update — Q4 2024
+Prepared by: Head of Product
+Date: November 1, 2024
+
+EXECUTIVE OVERVIEW
+
+After a strong Q3 (ARR grew 22% QoQ), the product team is prioritizing three strategic themes for Q4 and into 2025:
+enterprise readiness, AI feature differentiation, and platform extensibility.
+
+THEME 1: ENTERPRISE READINESS
+
+We have 14 enterprise prospects in active pipeline representing $3.8M in
+potential ARR. Key blockers identified from 9 lost deals this year:
+  - SOC 2 Type II certification (in progress, expected January 2025)
+  - SSO / SAML support (planned for v3.1, December release)
+  - Audit logging (in scope for v3.1)
+  - Role-based access control enhancements (v3.2, February 2025)
+
+THEME 2: AI FEATURE DIFFERENTIATION
+
+Competitive analysis shows three competitors shipping AI-assisted features.
+Our AI summarization beta has 1,200 active users with 78% weekly retention —
+significantly above our product average of 61%. We plan to GA the feature
+in November and begin charging for AI credits in January.
+
+Key risk: model API costs are currently running at $0.018 per document.
+At projected scale (500K documents/month), this represents $9K/month in
+COGS. The team is evaluating caching strategies to reduce this by ~40%.
+
+THEME 3: PLATFORM EXTENSIBILITY
+
+A webhook system and public API v2 are planned for Q1 2025. Early feedback
+from 6 design partners suggests this unblocks integration with Salesforce,
+HubSpot, and Slack — the top-requested integrations.
+
+RISKS AND MITIGATIONS
+
+1. SOC 2 delay: auditor has flagged two control gaps. Legal is addressing.
+   Target remains January but a 4-6 week slip is possible.
+2. Engineering capacity: two senior engineers are on medical leave through
+   November. PM is de-scoping 3 lower-priority items to compensate.
+
+NEXT STEPS
+
+- Product/Eng alignment meeting: November 6
+- v3.1 feature freeze: November 22
+- Board update deck due: November 15 (Sarah to own)

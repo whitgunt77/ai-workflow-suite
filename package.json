@@ -1,0 +1,33 @@
+{
+  "name": "ai-workflow-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "summarize": "node --env-file=.env src/automations/summarize.js",
+    "classify": "node --env-file=.env src/automations/classify.js",
+    "extract": "node --env-file=.env src/automations/extract.js",
+    "eval": "node --env-file=.env src/evals/run-evals.js",
+    "eval:summarize": "node --env-file=.env src/evals/run-evals.js --automation=summarize",
+    "eval:classify": "node --env-file=.env src/evals/run-evals.js --automation=classify",
+    "eval:extract": "node --env-file=.env src/evals/run-evals.js --automation=extract"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "chalk": "^5.6.2",
+    "commander": "^15.0.0",
+    "fs-extra": "^11.3.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.8"
+  }
+}

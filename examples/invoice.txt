@@ -1,0 +1,24 @@
+INVOICE #INV-2024-1104
+Vendor: BrightPath Consulting LLC
+Bill To: Cornerstone Tech Inc.
+Invoice Date: November 4, 2024
+Due Date: December 4, 2024
+
+LINE ITEMS
+──────────────────────────────────────────────────────
+Service                       Qty    Rate       Total
+──────────────────────────────────────────────────────
+System Architecture Review    1      $4,000     $4,000
+AI Integration Workshop       2 days $2,500/day $5,000
+Technical Documentation       8 hrs  $175/hr    $1,400
+──────────────────────────────────────────────────────
+Subtotal                                        $10,400
+Tax (7.5%)                                       $  780
+TOTAL DUE                                       $11,180 USD
+──────────────────────────────────────────────────────
+
+Payment Terms: Net 30
+Please remit payment via bank transfer to the account on file.
+Reference Invoice #INV-2024-1104 in the payment description.
+
+Questions? Contact billing@brightpathconsulting.com
