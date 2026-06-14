@@ -38,33 +38,33 @@ npm run eval
 
 ## Project structure
 
-ai-workflow-suite/
-├── examples/
-| ├── invoice.txt ⬅ Sample invoice for testing extract
-| └──  sample-doc.txt ⬅ Sample strategy doc for testing summarize/classify
-|
-├── runbooks/
-| ├── summarize.runbook.md ⬅ How to run, tune, and debug summarize
-| ├── classify.runbook.md ⬅ How to run, tune, and debug classify
-| └──  extract.runbook.md ⬅ How to run, tune, and debug extract
-|
-├── src/
-| ├── utils/
-| | └── claude.js ⬅ Shared Claude client: complete(),chain(),extractJSON()
-| ├── automations/
-| | ├── summarize.js ⬅ Prompt-chaining summarizer
-| | ├── classify.js ⬅ Document classifier
-| | └──  extract.js ⬅ Structured data extractor
-| └── evals/
-| | ├── run-evals.js ⬅ Eval harness runner
-| | └── cases/
-| | | ├── summarize.cases.js
-| | | ├── classify.cases.js
-| | | └──  extract.cases.js
-├── .env ⬅ ANTHROPIC_API_KEY (never commit this)
-├── .gitignore
-├── package.json
-└── README.MD
+├── ai-workflow-suite/
+| ├── examples/
+| | ├── invoice.txt ⬅ Sample invoice for testing extract
+| | └──  sample-doc.txt ⬅ Sample strategy doc for testing summarize/classify
+| |
+| ├── runbooks/
+| | ├── summarize.runbook.md ⬅ How to run, tune, and debug summarize
+| | ├── classify.runbook.md ⬅ How to run, tune, and debug classify
+| | └──  extract.runbook.md ⬅ How to run, tune, and debug extract
+| |
+| ├── src/
+| | ├── utils/
+| | | └── claude.js ⬅ Shared Claude client: complete(),chain(),extractJSON()
+| | ├── automations/
+| | | ├── summarize.js ⬅ Prompt-chaining summarizer
+| | | ├── classify.js ⬅ Document classifier
+| | | └──  extract.js ⬅ Structured data extractor
+| | └── evals/
+| | | ├── run-evals.js ⬅ Eval harness runner
+| | | └── cases/
+| | | | ├── summarize.cases.js
+| | | | ├── classify.cases.js
+| | | | └──  extract.cases.js
+| ├── .env ⬅ ANTHROPIC_API_KEY (never commit this)
+| ├── .gitignore
+| ├── package.json
+| └── README.MD
 
 
 ---
