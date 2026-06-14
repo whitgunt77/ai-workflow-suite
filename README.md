@@ -39,11 +39,6 @@ npm run eval
 ## Project structure
 
 ai-workflow-suite/
-├── .env ← ANTHROPIC_API_KEY (never commit this)
-├── .gitignore
-├── package.json
-├── README.md
-|
 ├── examples/
 | ├── invoice.txt ⬅ Sample invoice for testing extract
 | └──  sample-doc.txt ⬅ Sample strategy doc for testing summarize/classify
@@ -65,7 +60,12 @@ ai-workflow-suite/
 | | └── cases/
 | | | ├── summarize.cases.js
 | | | ├── classify.cases.js
-└──── └──  extract.cases.js
+| | | └──  extract.cases.js
+├── .env ⬅ ANTHROPIC_API_KEY (never commit this)
+├── .gitignore
+├── package.json
+└── README.MD
+
 
 ---
 
